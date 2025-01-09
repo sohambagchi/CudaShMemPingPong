@@ -1,7 +1,8 @@
 #ifndef GPU_PINGPONG_CUH
 #define GPU_PINGPONG_CUH
 
-#include "gpu_data_functions.cuh"
+// #include "gpu_data_functions.cuh"
+#include "structs.cuh"
 
 #define PING 1
 #define PONG 0
