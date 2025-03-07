@@ -27,7 +27,9 @@ enum MemOrder {
 
 enum Allocator {
     CUDA_MALLOC_HOST,
-    MALLOC
+    MALLOC,
+    CUDA_MALLOC,
+    UM,
 };
 
 enum ProducerConsumerTypes {
