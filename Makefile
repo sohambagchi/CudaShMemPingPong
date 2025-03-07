@@ -2,7 +2,7 @@
 NVCC = nvcc
 
 # Flags
-CFLAGS = -g -arch=sm_87 -Xcompiler -O3 -Xcicc -O3
+CFLAGS = -g -arch=sm_80 -Xcompiler -O3 -Xcicc -O3 -lineinfo
 
 # Output file
 OUTPUT = MP.out
